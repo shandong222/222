@@ -15,8 +15,6 @@ import java.util.Set;
 public class MyRealm extends AuthorizingRealm {
 
 
-
-
     @Override
     protected AuthorizationInfo doGetAuthorizationInfo(PrincipalCollection principalCollection) {
         String username = (String)principalCollection.getPrimaryPrincipal();
